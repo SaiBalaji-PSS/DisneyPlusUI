@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C57C9F08-AF0C-4827-8029-94E97D0877C4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61E13C66-04BD-4F87-9D8B-F27FAD5E55E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "checkPasswordStrength(passwordText:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD6041A8-F844-41FE-8856-0A8A7DD7B806"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "checkPasswordStrength(passwordText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD6041A8-F844-41FE-8856-0A8A7DD7B806 - 7e54abf2428c53c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DisneyPlusUI.SignUpViewModel.checkPasswordStrength(passwordText: Swift.String) -&gt; ()"
+                  moduleName = "DisneyPlusUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/UIKit/DisneyPlusUI/DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2564">
+               </Location>
+               <Location
+                  uuid = "AD6041A8-F844-41FE-8856-0A8A7DD7B806 - 7e54abf2428c53c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DisneyPlusUI.SignUpViewModel.checkPasswordStrength(passwordText: Swift.String) -&gt; ()"
+                  moduleName = "DisneyPlusUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/UIKit/DisneyPlusUI/DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2536">
+               </Location>
+               <Location
+                  uuid = "AD6041A8-F844-41FE-8856-0A8A7DD7B806 - 7e54abf2428c53c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DisneyPlusUI.SignUpViewModel.checkPasswordStrength(passwordText: Swift.String) -&gt; ()"
+                  moduleName = "DisneyPlusUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/UIKit/DisneyPlusUI/DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "2480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48BFA56B-59F5-438D-983D-6ABFFA4F037B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "checkPasswordStrength(passwordText:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "48BFA56B-59F5-438D-983D-6ABFFA4F037B - 7e54abf2428c4f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DisneyPlusUI.SignUpViewModel.checkPasswordStrength(passwordText: Swift.String) -&gt; ()"
+                  moduleName = "DisneyPlusUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/UIKit/DisneyPlusUI/DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1512">
+               </Location>
+               <Location
+                  uuid = "48BFA56B-59F5-438D-983D-6ABFFA4F037B - 7e54abf2428c4f04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DisneyPlusUI.SignUpViewModel.checkPasswordStrength(passwordText: Swift.String) -&gt; ()"
+                  moduleName = "DisneyPlusUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/UIKit/DisneyPlusUI/DisneyPlusUI/ViewModel/SignUpViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
