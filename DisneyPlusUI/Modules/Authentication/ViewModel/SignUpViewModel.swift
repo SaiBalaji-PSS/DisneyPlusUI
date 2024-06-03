@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 import UIKit
+import FirebaseAuth
+
 
 
 
@@ -15,6 +17,7 @@ class SignUpViewModel: ObservableObject{
     @Published var passwordStrengthValue = 0.0
     @Published var passwordStrengthText = ""
     @Published var passwordProgressColor = UIColor.clear
+    @Published var error: Error?
     private let lowercasePattern = ".*[a-z]+.*"
     private let digitPattern = ".*[0-9]+.*"
     private let specialCharacterPattern = ".*[!@#$%^&*(),.?\":{}|<>]+.*"
@@ -73,6 +76,26 @@ class SignUpViewModel: ObservableObject{
                     }
                 }
             }
+        }
+        else{
+            self.passwordStrengthValue = 0.2
+            self.passwordStrengthText = "Weak"
+            self.passwordProgressColor = UIColor.red
+        }
+    }
+    
+    func signUpEmailPassword(email: String, password: String){
+        
+        Auth.auth().createUser(withEmail: email, password: password) { result , error  in
+            if let err = error{
+                self.error = err
+            }
+            else{
+                if result != nil{
+                    AppSession.shared.showMainTabbar()
+                }
+            }
+           
         }
     }
 }

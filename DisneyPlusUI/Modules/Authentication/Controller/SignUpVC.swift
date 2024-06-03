@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 
+
 class SignUpVC: UIViewController {
 
 
@@ -18,6 +19,7 @@ class SignUpVC: UIViewController {
     private var passwordStrengthSubscriber: AnyCancellable?
     private var passwordStengthColorSubscriber: AnyCancellable?
     private var passwordStrengthTextSubscriber:AnyCancellable?
+    private var authErrorSubscriber: AnyCancellable?
     
     @IBOutlet weak var passwordStrengthLbl: UILabel!
     @IBOutlet weak var emailTextField: CustomTextField!
@@ -59,6 +61,12 @@ class SignUpVC: UIViewController {
         passwordStrengthTextSubscriber = vm.$passwordStrengthText.receive(on: RunLoop.main).sink(receiveValue: { value in
             self.passwordStrengthLbl.text = value
         })
+        authErrorSubscriber = vm.$error.receive(on: RunLoop.main).sink(receiveValue: { error  in
+            if let error{
+                print(error)
+                
+            }
+        })
         
     }
 
@@ -67,7 +75,15 @@ class SignUpVC: UIViewController {
     }
     
     @IBAction func signUpBtnPressed(_ sender: Any) {
+        if passwordTextField.text == retypePasswordTextField.text{
+            if let email = emailTextField.text, let password = passwordTextField.text{
+                vm.signUpEmailPassword(email: email, password: password)
+            }
+        }
     }
+    
+    
+    
     
     
 }
